@@ -15,6 +15,7 @@ const solution = (a, b) => {
   let small = a > b ? b : a;
 
   while (res !== 0) {
+    // TODO?
     if (small === 0) {
       break;
     }
